@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include "Func.h"
 
 int main()
 {
@@ -16,7 +17,7 @@ int main()
         }
 
         window.clear();
-        window.draw(shape);
+        Render(window, shape);
         window.display();
     }
 
